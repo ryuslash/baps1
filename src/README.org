@@ -1,0 +1,14 @@
+* Benjamin A's PS1
+
+  To use it as it was intended put the following in your ~PS1~ or
+  ~PROMPT~ variable, depending on whether you use ~bash~ or ~zsh~:
+
+  #+BEGIN_SRC shell-script
+  PS1="\$(/path/to/baps1)"
+  #+END_SRC
+
+  Or, if you like single quotes, use:
+
+  #+BEGIN_SRC shell-script
+  PS1='$(/path/to/baps1)'
+  #+END_SRC
