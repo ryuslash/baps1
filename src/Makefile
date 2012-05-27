@@ -6,7 +6,7 @@ baps1: main.o
 
 main.o: main.c
 	$(CC) -c main.c
-install:
+install: baps1
 	cp baps1 $(INST_PATH)/baps1
 clean:
 	rm baps1 *.o
