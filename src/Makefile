@@ -10,5 +10,8 @@ main.o: main.c
 install: baps1
 	install baps1 $(INST_PATH)/baps1
 
+uninstall:
+	rm $(INST_PATH)/baps1
+
 clean:
 	rm baps1 *.o
