@@ -1,5 +1,13 @@
 * Benjamin A's PS1
 
+  baps1 is meant to be used in your shell prompt and shows the current
+  tty and time since the last call to baps1 for that tty, which can give
+  you a rough estimation of the time duration of the last command. It is
+  basically like calling every command with ~time <command>~ (plus the
+  time it took you to write out the command).
+
+  Example output: ~p1:5m43s~
+
   To use it as it was intended put the following in your ~PS1~ or
   ~PROMPT~ variable, depending on whether you use ~bash~ or ~zsh~:
 
